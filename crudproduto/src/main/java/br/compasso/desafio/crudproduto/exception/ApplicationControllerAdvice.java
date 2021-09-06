@@ -1,6 +1,6 @@
 package br.compasso.desafio.crudproduto.exception;
 
-import br.compasso.desafio.crudproduto.entity.dtos.ErrorResponseDTO;
+import br.compasso.desafio.crudproduto.entity.dto.ErrorResponseDTO;
 import javassist.NotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 public class ApplicationControllerAdvice {
 
 
-    public static final String PRODUT_NAO_ENCONTRADO = "Produto não encontrado no banco de dados!";
+    public static final String PRODUTO_NAO_ENCONTRADO = "Produto não encontrado no banco de dados!";
     public static final String CAMPO_INVALIDO = "Campo inválido, verifique!";
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
@@ -32,7 +32,7 @@ public class ApplicationControllerAdvice {
     public final ResponseEntity handleException(Exception exception) {
         ErrorResponseDTO build = ErrorResponseDTO.builder()
                 .status_code(HttpStatus.NOT_FOUND.value())
-                .message(PRODUT_NAO_ENCONTRADO)
+                .message(PRODUTO_NAO_ENCONTRADO)
                 .build();
         return new ResponseEntity(build, HttpStatus.NOT_FOUND);
     }

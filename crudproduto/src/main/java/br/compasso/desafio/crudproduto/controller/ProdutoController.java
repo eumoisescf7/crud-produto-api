@@ -26,7 +26,7 @@ public class ProdutoController {
     @ApiResponses(value = {
             @ApiResponse(
                     code = 201,
-                    message = "Produto criado salvo no banco de dados com sucesso!"),
+                    message = "Produto criado e salvo com sucesso!"),
             @ApiResponse(
                     code = 400,
                     message = "Alguns dados estão incorretos, verifique!."
@@ -36,7 +36,7 @@ public class ProdutoController {
     @PostMapping()
     public ResponseEntity<?> createProduct(@Valid @RequestBody Produto produto) {
 
-            return service.createProduct(produto);
+        return new ResponseEntity<>(service.createProduct(produto), HttpStatus.OK);
 
     }
 
@@ -45,7 +45,7 @@ public class ProdutoController {
     @ApiResponses(value = {
             @ApiResponse(
                     code = 200,
-                    message = "Atualização do produto realizado no banco de dados."),
+                    message = "Atualização do produto realizado com sucesso."),
             @ApiResponse(
                     code = 404,
                     message = "Produto não existe no banco de dados"
@@ -56,7 +56,7 @@ public class ProdutoController {
     public ResponseEntity<?> updateProduct(@Valid @PathVariable("id") Integer id,
                                            @Valid @RequestBody Produto produto) throws NotFoundException {
 
-        return service.updateProduct(id, produto);
+        return new ResponseEntity<>(service.updateProduct(id, produto), HttpStatus.OK);
 
     }
 
@@ -75,7 +75,7 @@ public class ProdutoController {
     @GetMapping("/{id}")
     public ResponseEntity<?> findProductById(@Valid @PathVariable("id") Integer id) throws NotFoundException {
 
-        return service.findProductById(id);
+        return new ResponseEntity<>(service.findProductById(id), HttpStatus.OK);
 
     }
 
@@ -90,7 +90,7 @@ public class ProdutoController {
     @GetMapping()
     public ResponseEntity<?> listAllProducts(){
 
-        return service.listAllProducts();
+        return new ResponseEntity<>(service.listAllProducts(), HttpStatus.OK);
 
     }
 
@@ -111,7 +111,8 @@ public class ProdutoController {
                                              @RequestParam(required = false) Double min_price,
                                              @RequestParam(required = false) Double max_price){
 
-        return service.listAllByFilter(q, min_price, max_price);
+        return new ResponseEntity<>(service.listAllByFilter(q, min_price, max_price),
+                HttpStatus.OK);
 
     }
 
@@ -120,7 +121,7 @@ public class ProdutoController {
     @ApiResponses(value = {
             @ApiResponse(
                     code = 200,
-                    message = "Produto deletado da base de dados!"),
+                    message = "Produto deletado com sucesso!"),
             @ApiResponse(
                     code = 404,
                     message = "Produto não encontrado no banco de dados!"
@@ -130,7 +131,8 @@ public class ProdutoController {
     @DeleteMapping("/{id}")
     public ResponseEntity<?> deleteProduct(@Valid @PathVariable("id") Integer id) throws NotFoundException {
 
-        return service.deleteProduct(id);
+        service.deleteProduct(id);
+        return new ResponseEntity<>(HttpStatus.OK);
 
     }
 }

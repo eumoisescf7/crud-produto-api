@@ -1,9 +1,7 @@
-package br.compasso.desafio.crudproduto.entity.dtos;
+package br.compasso.desafio.crudproduto.entity.dto;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
+import lombok.*;
 
 @AllArgsConstructor
 @Getter
