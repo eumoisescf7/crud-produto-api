@@ -1,6 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="RunManager">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e94d035-f645-4ccf-aa03-06859449ec08" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produto-api/src/test/java/br/compasso/produtoapi/produtoTeste/ProdutoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/produto-api/src/test/java/br/compasso/produtoapi/produtoTeste/ProdutoRepositoryTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xoqh3DTr0ddk85vccQw9cwKdEw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="JUnit.ProdutoRepositoryTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoApiApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="produto-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.compasso.produtoapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.compasso.produtoapi" />
+      <option name="MAIN_CLASS_NAME" value="br.compasso.produtoapi.ProdutoApiApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="produto-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.compasso.produtoapi.produtoTeste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.compasso.produtoapi.produtoTeste" />
+      <option name="MAIN_CLASS_NAME" value="br.compasso.produtoapi.produtoTeste.ProdutoRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoRepositoryTest.deleteProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="produto-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.compasso.produtoapi.produtoTeste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.compasso.produtoapi.produtoTeste" />
+      <option name="MAIN_CLASS_NAME" value="br.compasso.produtoapi.produtoTeste.ProdutoRepositoryTest" />
+      <option name="METHOD_NAME" value="deleteProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoRepositoryTest.updateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="produto-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.compasso.produtoapi.produtoTeste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.compasso.produtoapi.produtoTeste" />
+      <option name="MAIN_CLASS_NAME" value="br.compasso.produtoapi.produtoTeste.ProdutoRepositoryTest" />
+      <option name="METHOD_NAME" value="updateProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.compasso.produtoapi.produtoTeste in produto-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="produto-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.compasso.produtoapi.produtoTeste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.compasso.produtoapi.produtoTeste" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProdutoApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="produto-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="br.compasso.produtoapi.ProdutoApiApplication" />
@@ -8,5 +127,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProdutoRepositoryTest" />
+        <item itemvalue="JUnit.br.compasso.produtoapi.produtoTeste in produto-api" />
+        <item itemvalue="JUnit.ProdutoRepositoryTest.deleteProduct" />
+        <item itemvalue="JUnit.ProdutoRepositoryTest.updateProduct" />
+        <item itemvalue="JUnit.ProdutoApiApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e94d035-f645-4ccf-aa03-06859449ec08" name="Default Changelist" comment="" />
+      <created>1631031906376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631031906376</updated>
+      <workItem from="1631031910036" duration="739000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
