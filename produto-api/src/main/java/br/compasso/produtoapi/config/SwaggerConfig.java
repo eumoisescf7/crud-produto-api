@@ -33,7 +33,7 @@ public class SwaggerConfig {
 
         ApiInfo apiInfo = new ApiInfo(
                 "MICROSERVICE",
-                "PRODUTO - API",
+                "PRODUCTS - API",
                 "1.0",
                 "Terms of Service",
                 new Contact("Moisés Carlos Ferreira",
