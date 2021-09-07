@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/crudproduto/crudproduto.iml" filepath="$PROJECT_DIR$/crudproduto/crudproduto.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/desafio-java-springboot.iml" filepath="$PROJECT_DIR$/.idea/desafio-java-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/crud-produto-api.iml" filepath="$PROJECT_DIR$/.idea/crud-produto-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/produto-api/produto-api.iml" filepath="$PROJECT_DIR$/produto-api/produto-api.iml" />
     </modules>
   </component>
 </project>
