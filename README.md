@@ -22,7 +22,7 @@ Maven
 
 ``` 
 # Clonar o repositório do projeto
-$ git clone "repositório"
+$ git clone https://github.com/eumoisescf7/crud-produto-api
 
 # Instalar as dependências
 $ maven install 
