@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e94d035-f645-4ccf-aa03-06859449ec08" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produto-api/src/test/java/br/compasso/produtoapi/produtoTeste/ProdutoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/produto-api/src/test/java/br/compasso/produtoapi/produtoTeste/ProdutoRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produto-api/src/main/java/br/compasso/produtoapi/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/produto-api/src/main/java/br/compasso/produtoapi/entity/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,24 +27,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="JUnit.ProdutoRepositoryTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ProdutoApiApplication">
     <configuration name="ProdutoApiApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="produto-api" />
       <extension name="coverage">
@@ -145,7 +140,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631031906376</updated>
-      <workItem from="1631031910036" duration="739000" />
+      <workItem from="1631031910036" duration="2906000" />
+      <workItem from="1631118831552" duration="260000" />
+      <workItem from="1631119657887" duration="47000" />
+      <workItem from="1631130509828" duration="828000" />
+      <workItem from="1631141743754" duration="5351000" />
     </task>
     <servers />
   </component>
@@ -162,8 +161,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/produto-api/src/main/java/br/compasso/produtoapi/service/ProdutoService.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/produto-api/src/main/java/br/compasso/produtoapi/service/ProdutoService.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

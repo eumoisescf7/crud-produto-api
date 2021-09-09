@@ -3,9 +3,7 @@ package br.compasso.produtoapi.entity;
 import lombok.*;
 
 import javax.persistence.*;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
+import javax.validation.constraints.*;
 
 @Entity
 @Data
@@ -20,16 +18,16 @@ public class Produto {
     private Integer id;
 
     @Column(name = "name", nullable = false, length = 250)
-    @NotEmpty(message = "Campo nome obrigatório")
+    @NotBlank(message = "Campo nome é obrigatório")
     private String name;
 
     @Column(name = "description", nullable = false, length = 250)
-    @NotEmpty(message = "Campo descrição obrigatório")
+    @NotBlank(message = "Campo descrição é obrigatório")
     private String description;
 
     @Column(name = "price", nullable = false)
-    @NotNull(message = "Campo descrição obrigatório")
-    @Min(value = 0)
+    @NotNull(message = "Campo preço é obrigatório")
+    @Min(value = 0, message = "deve ser maior ou igual a zero")
     private Double price;
 
 }
